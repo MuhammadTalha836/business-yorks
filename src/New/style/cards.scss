@@ -1,0 +1,100 @@
+
+.HomeSectionFour {
+  .cards {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .card {
+          width: 100%;
+          height: 400px;
+          cursor: pointer;
+      }
+
+      .one {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: white;
+
+          span {
+              text-align: center;
+              padding: 10px;
+
+              p {
+                  color: #6c757d;
+                  word-spacing: 2px;
+              }
+          }
+      }
+
+      .two {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #e6ae48;
+          
+
+          span {
+              text-align: center;
+              color: white;
+              padding: 10px;
+
+              h3{
+                color: white;
+              }
+              p{
+                color: white;
+              }
+          }
+      }
+
+      .three {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #343a40;
+
+          span {
+              text-align: center;
+              color: white;
+              padding: 10px;
+
+              h3{
+                color: white;
+              }
+              p{
+                color: white;
+              }
+          }
+      }
+
+      .four {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: black;
+
+          span {
+              text-align: center;
+              color: white;
+              padding: 10px;
+
+              h3{
+                color: white;
+              }
+              p{
+                color: white;
+              }
+          }
+      }
+  }
+
+  @media screen and (max-width: 970px) {
+      .cards {
+          flex-direction: column;
+      }
+  }
+}
